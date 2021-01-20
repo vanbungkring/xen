@@ -9,5 +9,8 @@ export class CategoryService implements Service {
   constructor() {
     this.categoryWorker = new CategoryWorker();
   }
+  initRouter(): void {
+    throw new Error('Method not implemented.');
+  }
 
 }
