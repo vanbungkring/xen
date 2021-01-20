@@ -7,6 +7,7 @@ export class Storage {
     this.dbUrl = CONFIG.DB_URL;
   }
   connect() {
+    (<any>mongoose).Promise = global.Promise;
     mongoose.set('debug', true);
     mongoose.set('useUnifiedTopology', true);
     mongoose.set('useNewUrlParser', true);

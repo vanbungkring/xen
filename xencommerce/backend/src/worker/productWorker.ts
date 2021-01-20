@@ -12,15 +12,42 @@ export class ProductWorker implements IProductWorker {
   }
 
   findProductByCategory(category: string): Promise<any> {
-    throw new Error('Method not implemented.');
+    return new Promise((resolve, reject) => {
+      productModel
+        .find({category:category})
+        .then((data: IProduct[]) => {
+          resolve(data);
+        })
+        .catch((err: any) => {
+          reject(err);
+        });
+    });
   }
-  
+
   createProduct(product: IProduct): Promise<any> {
-    throw new Error('Method not implemented.');
+     return new Promise((resolve, reject) => {
+      productModel
+        .create(product)
+        .then((data: IProduct) => {
+          resolve(data);
+        })
+        .catch((err: any) => {
+          reject(err);
+        });
+    });
   }
 
   findProductById(id: string): Promise<any> {
-    throw new Error('Method not implemented.');
+    return new Promise((resolve, reject) => {
+      productModel
+        .findOne({_id:id})
+        .then((data: IProduct) => {
+          resolve(data);
+        })
+        .catch((err: any) => {
+          reject(err);
+        });
+    });
   } 
 
 }
