@@ -1,6 +1,6 @@
-interface ProductWorker { 
+export interface ProductWorker { 
 
 }
-class ProductWorker implements ProductWorker { 
+export class ProductWorker implements ProductWorker { 
 
 }

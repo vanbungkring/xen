@@ -1,6 +1,6 @@
 interface CategoryWorker { 
 
 }
-class CategoryWorker implements CategoryWorker { 
-
+class CategoryWorker implements CategoryWorker {
+  constructor() { }
 }
