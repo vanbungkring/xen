@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6DC296500BB784996269A8 /* Pods_XenCommerce_XenCommerceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519C7DA4A633048A70697A41 /* Pods_XenCommerce_XenCommerceUITests.framework */; };
+		39D6A922B8933FC456D35C4C /* Pods_XenCommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8168FB28BF7783D8B7AB733C /* Pods_XenCommerce.framework */; };
+		57ECB10325B81108002B73BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECB10225B81108002B73BF /* AppDelegate.swift */; };
+		57ECB10525B81108002B73BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECB10425B81108002B73BF /* SceneDelegate.swift */; };
+		57ECB10725B81108002B73BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECB10625B81108002B73BF /* ViewController.swift */; };
+		57ECB10A25B81108002B73BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ECB10825B81108002B73BF /* Main.storyboard */; };
+		57ECB10C25B8110D002B73BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57ECB10B25B8110D002B73BF /* Assets.xcassets */; };
+		57ECB10F25B8110D002B73BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ECB10D25B8110D002B73BF /* LaunchScreen.storyboard */; };
+		57ECB11A25B8110D002B73BF /* XenCommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECB11925B8110D002B73BF /* XenCommerceTests.swift */; };
+		57ECB12525B8110D002B73BF /* XenCommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECB12425B8110D002B73BF /* XenCommerceUITests.swift */; };
+		B94808236EB7062E3587983D /* Pods_XenCommerceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EF4DA9D8A245FC016E5433 /* Pods_XenCommerceTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57ECB11625B8110D002B73BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57ECB0F725B81107002B73BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57ECB0FE25B81108002B73BF;
+			remoteInfo = XenCommerce;
+		};
+		57ECB12125B8110D002B73BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57ECB0F725B81107002B73BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57ECB0FE25B81108002B73BF;
+			remoteInfo = XenCommerce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		519C7DA4A633048A70697A41 /* Pods_XenCommerce_XenCommerceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XenCommerce_XenCommerceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55281B1DCDA77121E2CCC013 /* Pods-XenCommerce-XenCommerceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenCommerce-XenCommerceUITests.debug.xcconfig"; path = "Target Support Files/Pods-XenCommerce-XenCommerceUITests/Pods-XenCommerce-XenCommerceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57ECB0FF25B81108002B73BF /* XenCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XenCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57ECB10225B81108002B73BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57ECB10425B81108002B73BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57ECB10625B81108002B73BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57ECB10925B81108002B73BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57ECB10B25B8110D002B73BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57ECB10E25B8110D002B73BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57ECB11025B8110D002B73BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57ECB11525B8110D002B73BF /* XenCommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XenCommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57ECB11925B8110D002B73BF /* XenCommerceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XenCommerceTests.swift; sourceTree = "<group>"; };
+		57ECB11B25B8110D002B73BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57ECB12025B8110D002B73BF /* XenCommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XenCommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57ECB12425B8110D002B73BF /* XenCommerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XenCommerceUITests.swift; sourceTree = "<group>"; };
+		57ECB12625B8110D002B73BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC09995E77C14F7C3471735 /* Pods-XenCommerceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenCommerceTests.debug.xcconfig"; path = "Target Support Files/Pods-XenCommerceTests/Pods-XenCommerceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8168FB28BF7783D8B7AB733C /* Pods_XenCommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XenCommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85483EDE1A05937398D33A40 /* Pods-XenCommerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenCommerce.debug.xcconfig"; path = "Target Support Files/Pods-XenCommerce/Pods-XenCommerce.debug.xcconfig"; sourceTree = "<group>"; };
+		87EF4DA9D8A245FC016E5433 /* Pods_XenCommerceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XenCommerceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC7C40F3574AF5DDF039AAB /* Pods-XenCommerceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenCommerceTests.release.xcconfig"; path = "Target Support Files/Pods-XenCommerceTests/Pods-XenCommerceTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE28862C309952313C7E1FF5 /* Pods-XenCommerce-XenCommerceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenCommerce-XenCommerceUITests.release.xcconfig"; path = "Target Support Files/Pods-XenCommerce-XenCommerceUITests/Pods-XenCommerce-XenCommerceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F165893D004A3B83595D5E43 /* Pods-XenCommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XenCommerce.release.xcconfig"; path = "Target Support Files/Pods-XenCommerce/Pods-XenCommerce.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57ECB0FC25B81108002B73BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D6A922B8933FC456D35C4C /* Pods_XenCommerce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57ECB11225B8110D002B73BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94808236EB7062E3587983D /* Pods_XenCommerceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57ECB11D25B8110D002B73BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6DC296500BB784996269A8 /* Pods_XenCommerce_XenCommerceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EE8B8297AE82CF10C605C12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85483EDE1A05937398D33A40 /* Pods-XenCommerce.debug.xcconfig */,
+				F165893D004A3B83595D5E43 /* Pods-XenCommerce.release.xcconfig */,
+				55281B1DCDA77121E2CCC013 /* Pods-XenCommerce-XenCommerceUITests.debug.xcconfig */,
+				EE28862C309952313C7E1FF5 /* Pods-XenCommerce-XenCommerceUITests.release.xcconfig */,
+				6AC09995E77C14F7C3471735 /* Pods-XenCommerceTests.debug.xcconfig */,
+				EBC7C40F3574AF5DDF039AAB /* Pods-XenCommerceTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		57ECB0F625B81107002B73BF = {
+			isa = PBXGroup;
+			children = (
+				57ECB10125B81108002B73BF /* XenCommerce */,
+				57ECB11825B8110D002B73BF /* XenCommerceTests */,
+				57ECB12325B8110D002B73BF /* XenCommerceUITests */,
+				57ECB10025B81108002B73BF /* Products */,
+				3EE8B8297AE82CF10C605C12 /* Pods */,
+				D7417EACEF8D6922A29A19E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57ECB10025B81108002B73BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57ECB0FF25B81108002B73BF /* XenCommerce.app */,
+				57ECB11525B8110D002B73BF /* XenCommerceTests.xctest */,
+				57ECB12025B8110D002B73BF /* XenCommerceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57ECB10125B81108002B73BF /* XenCommerce */ = {
+			isa = PBXGroup;
+			children = (
+				57ECB10225B81108002B73BF /* AppDelegate.swift */,
+				57ECB10425B81108002B73BF /* SceneDelegate.swift */,
+				57ECB10625B81108002B73BF /* ViewController.swift */,
+				57ECB10825B81108002B73BF /* Main.storyboard */,
+				57ECB10B25B8110D002B73BF /* Assets.xcassets */,
+				57ECB10D25B8110D002B73BF /* LaunchScreen.storyboard */,
+				57ECB11025B8110D002B73BF /* Info.plist */,
+			);
+			path = XenCommerce;
+			sourceTree = "<group>";
+		};
+		57ECB11825B8110D002B73BF /* XenCommerceTests */ = {
+			isa = PBXGroup;
+			children = (
+				57ECB11925B8110D002B73BF /* XenCommerceTests.swift */,
+				57ECB11B25B8110D002B73BF /* Info.plist */,
+			);
+			path = XenCommerceTests;
+			sourceTree = "<group>";
+		};
+		57ECB12325B8110D002B73BF /* XenCommerceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57ECB12425B8110D002B73BF /* XenCommerceUITests.swift */,
+				57ECB12625B8110D002B73BF /* Info.plist */,
+			);
+			path = XenCommerceUITests;
+			sourceTree = "<group>";
+		};
+		D7417EACEF8D6922A29A19E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8168FB28BF7783D8B7AB733C /* Pods_XenCommerce.framework */,
+				519C7DA4A633048A70697A41 /* Pods_XenCommerce_XenCommerceUITests.framework */,
+				87EF4DA9D8A245FC016E5433 /* Pods_XenCommerceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57ECB0FE25B81108002B73BF /* XenCommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57ECB12925B8110D002B73BF /* Build configuration list for PBXNativeTarget "XenCommerce" */;
+			buildPhases = (
+				D3AADF530F15A8514E158CCA /* [CP] Check Pods Manifest.lock */,
+				57ECB0FB25B81108002B73BF /* Sources */,
+				57ECB0FC25B81108002B73BF /* Frameworks */,
+				57ECB0FD25B81108002B73BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XenCommerce;
+			productName = XenCommerce;
+			productReference = 57ECB0FF25B81108002B73BF /* XenCommerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57ECB11425B8110D002B73BF /* XenCommerceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57ECB12C25B8110D002B73BF /* Build configuration list for PBXNativeTarget "XenCommerceTests" */;
+			buildPhases = (
+				BA5D6C57DEF28081F993C5C1 /* [CP] Check Pods Manifest.lock */,
+				57ECB11125B8110D002B73BF /* Sources */,
+				57ECB11225B8110D002B73BF /* Frameworks */,
+				57ECB11325B8110D002B73BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57ECB11725B8110D002B73BF /* PBXTargetDependency */,
+			);
+			name = XenCommerceTests;
+			productName = XenCommerceTests;
+			productReference = 57ECB11525B8110D002B73BF /* XenCommerceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57ECB11F25B8110D002B73BF /* XenCommerceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57ECB12F25B8110D002B73BF /* Build configuration list for PBXNativeTarget "XenCommerceUITests" */;
+			buildPhases = (
+				1523A261823287157EBD796D /* [CP] Check Pods Manifest.lock */,
+				57ECB11C25B8110D002B73BF /* Sources */,
+				57ECB11D25B8110D002B73BF /* Frameworks */,
+				57ECB11E25B8110D002B73BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57ECB12225B8110D002B73BF /* PBXTargetDependency */,
+			);
+			name = XenCommerceUITests;
+			productName = XenCommerceUITests;
+			productReference = 57ECB12025B8110D002B73BF /* XenCommerceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57ECB0F725B81107002B73BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					57ECB0FE25B81108002B73BF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					57ECB11425B8110D002B73BF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 57ECB0FE25B81108002B73BF;
+					};
+					57ECB11F25B8110D002B73BF = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 57ECB0FE25B81108002B73BF;
+					};
+				};
+			};
+			buildConfigurationList = 57ECB0FA25B81107002B73BF /* Build configuration list for PBXProject "XenCommerce" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57ECB0F625B81107002B73BF;
+			productRefGroup = 57ECB10025B81108002B73BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57ECB0FE25B81108002B73BF /* XenCommerce */,
+				57ECB11425B8110D002B73BF /* XenCommerceTests */,
+				57ECB11F25B8110D002B73BF /* XenCommerceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57ECB0FD25B81108002B73BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57ECB10F25B8110D002B73BF /* LaunchScreen.storyboard in Resources */,
+				57ECB10C25B8110D002B73BF /* Assets.xcassets in Resources */,
+				57ECB10A25B81108002B73BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57ECB11325B8110D002B73BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57ECB11E25B8110D002B73BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1523A261823287157EBD796D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XenCommerce-XenCommerceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5D6C57DEF28081F993C5C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XenCommerceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3AADF530F15A8514E158CCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XenCommerce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57ECB0FB25B81108002B73BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57ECB10725B81108002B73BF /* ViewController.swift in Sources */,
+				57ECB10325B81108002B73BF /* AppDelegate.swift in Sources */,
+				57ECB10525B81108002B73BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57ECB11125B8110D002B73BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57ECB11A25B8110D002B73BF /* XenCommerceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57ECB11C25B8110D002B73BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57ECB12525B8110D002B73BF /* XenCommerceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57ECB11725B8110D002B73BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57ECB0FE25B81108002B73BF /* XenCommerce */;
+			targetProxy = 57ECB11625B8110D002B73BF /* PBXContainerItemProxy */;
+		};
+		57ECB12225B8110D002B73BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57ECB0FE25B81108002B73BF /* XenCommerce */;
+			targetProxy = 57ECB12125B8110D002B73BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57ECB10825B81108002B73BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57ECB10925B81108002B73BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57ECB10D25B8110D002B73BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57ECB10E25B8110D002B73BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57ECB12725B8110D002B73BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57ECB12825B8110D002B73BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57ECB12A25B8110D002B73BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85483EDE1A05937398D33A40 /* Pods-XenCommerce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XenCommerce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xendit.app.XenCommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57ECB12B25B8110D002B73BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F165893D004A3B83595D5E43 /* Pods-XenCommerce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XenCommerce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xendit.app.XenCommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57ECB12D25B8110D002B73BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC09995E77C14F7C3471735 /* Pods-XenCommerceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XenCommerceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xendit.app.XenCommerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XenCommerce.app/XenCommerce";
+			};
+			name = Debug;
+		};
+		57ECB12E25B8110D002B73BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC7C40F3574AF5DDF039AAB /* Pods-XenCommerceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XenCommerceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xendit.app.XenCommerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XenCommerce.app/XenCommerce";
+			};
+			name = Release;
+		};
+		57ECB13025B8110D002B73BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55281B1DCDA77121E2CCC013 /* Pods-XenCommerce-XenCommerceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XenCommerceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xendit.app.XenCommerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XenCommerce;
+			};
+			name = Debug;
+		};
+		57ECB13125B8110D002B73BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE28862C309952313C7E1FF5 /* Pods-XenCommerce-XenCommerceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XenCommerceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xendit.app.XenCommerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XenCommerce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57ECB0FA25B81107002B73BF /* Build configuration list for PBXProject "XenCommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57ECB12725B8110D002B73BF /* Debug */,
+				57ECB12825B8110D002B73BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57ECB12925B8110D002B73BF /* Build configuration list for PBXNativeTarget "XenCommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57ECB12A25B8110D002B73BF /* Debug */,
+				57ECB12B25B8110D002B73BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57ECB12C25B8110D002B73BF /* Build configuration list for PBXNativeTarget "XenCommerceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57ECB12D25B8110D002B73BF /* Debug */,
+				57ECB12E25B8110D002B73BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57ECB12F25B8110D002B73BF /* Build configuration list for PBXNativeTarget "XenCommerceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57ECB13025B8110D002B73BF /* Debug */,
+				57ECB13125B8110D002B73BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57ECB0F725B81107002B73BF /* Project object */;
+}

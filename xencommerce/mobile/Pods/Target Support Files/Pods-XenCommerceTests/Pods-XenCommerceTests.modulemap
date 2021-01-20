@@ -1,0 +1,6 @@
+framework module Pods_XenCommerceTests {
+  umbrella header "Pods-XenCommerceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

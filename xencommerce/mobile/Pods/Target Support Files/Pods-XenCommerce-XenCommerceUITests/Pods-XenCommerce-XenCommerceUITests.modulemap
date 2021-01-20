@@ -1,0 +1,6 @@
+framework module Pods_XenCommerce_XenCommerceUITests {
+  umbrella header "Pods-XenCommerce-XenCommerceUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
