@@ -1,3 +1,5 @@
+import { Express, Application } from 'express';
 export class AppExtend { 
-  constructor() { }
+  constructor(app: Express.Application) { }
+  appUse() {}
 }

@@ -22,7 +22,13 @@
       "types": [
         "node"
       ],
+      "paths": {
+        "@core/*": ["core/*"],
+        "@util/*": ["util/*"],
+        "@kernel/*": ["kernel/*"]
+      }
     },
+    
     "include": [
       "src/**/*"
   ],
@@ -31,3 +37,4 @@
       "**/*.spec.ts"
     ]
   }
+  
