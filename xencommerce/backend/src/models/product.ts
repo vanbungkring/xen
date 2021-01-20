@@ -6,6 +6,7 @@ export interface IProduct {
   name?: string;
   category: mongoose.Types.ObjectId,
   price: Number,
+  image:String,
   stock: Number,
   createdAt?: Date;
   updatedAt?: Date;
@@ -17,6 +18,7 @@ const schema = new mongoose.Schema({
     type: mongoose.Types.ObjectId,
     ref: categoryModel
   },
+  image:String,
   price: {
     type: Number,
   },

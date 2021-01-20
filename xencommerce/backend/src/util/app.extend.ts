@@ -10,10 +10,10 @@ export class AppExtend {
     this.appUse = new AppUse(this.defaultApp);
   }
   listen() {
-    this.defaultApp.listen(CONFIG.PROT, () => {
+    this.defaultApp.listen(CONFIG.PORT, () => {
       console.log(`run on ${process.env.NODE_ENV}`);
       console.log(
-        `Server Started!`
+        `Server Started on port ${CONFIG.PORT}!`
       );
     });
   }

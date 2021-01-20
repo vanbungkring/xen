@@ -2,6 +2,7 @@
 import mongoose from 'mongoose';
 
 export interface ICategory {
+  _id?: string;
   name?: string;
   categoryId: string,
   createdAt?: Date;
@@ -38,6 +39,6 @@ schema.pre('findOneAndUpdate', function () {
 });
 
 export const categoryModel = mongoose.model<ICategory & mongoose.Document>(
-  'cateogory',
+  'category',
   schema
 );

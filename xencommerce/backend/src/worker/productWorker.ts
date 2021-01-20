@@ -1,20 +1,24 @@
 
 import { productModel, IProduct } from '../models/product';
+import { ILooseObject } from '../util/looseObject';
 export interface IProductWorker { 
   createProduct(product: IProduct): Promise<any>;
   findProductById(id: string): Promise<any>;
-  findProductByCategory(category: string): Promise<any>;
+  allProducts():Promise<any>
 }
 export class ProductWorker implements IProductWorker {
   
   constructor() {
 
   }
-
-  findProductByCategory(category: string): Promise<any> {
+  allProducts(categories?: string): Promise<any> {
+    let params: ILooseObject = {};
+    if (categories) { 
+      params.category = categories;
+    }
     return new Promise((resolve, reject) => {
       productModel
-        .find({category:category})
+        .find(params)
         .then((data: IProduct[]) => {
           resolve(data);
         })
@@ -23,7 +27,6 @@ export class ProductWorker implements IProductWorker {
         });
     });
   }
-
   createProduct(product: IProduct): Promise<any> {
      return new Promise((resolve, reject) => {
       productModel
