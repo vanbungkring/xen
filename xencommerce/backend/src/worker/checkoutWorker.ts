@@ -1,5 +1,5 @@
-export interface CheckoutWorker { }
-export class CheckoutWorker implements CheckoutWorker { 
+export interface ICheckoutWorker { }
+export class CheckoutWorker implements ICheckoutWorker { 
   constructor() {
     
   }

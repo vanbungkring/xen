@@ -1,6 +1,6 @@
-export interface CartWorker { 
+export interface ICartWorker { 
 
 }
-export class CartWorker implements CartWorker {
+export class CartWorker implements ICartWorker {
   constructor() { }
 }

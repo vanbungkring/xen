@@ -1,2 +1,8 @@
 import { App } from './app';
-const app = new App();
+import { ProductService } from './service/productService';
+import { CategoryService } from './service/categoryService';
+const app = new App([
+  new ProductService(),
+  new CategoryService(),
+]);
+app.listen();

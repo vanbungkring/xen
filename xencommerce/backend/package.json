@@ -8,19 +8,24 @@
     "start": "npm run serve",
     "pretty": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "build": "npm run build-ts",
+    "build-ts": "tsc ",
     "serve": "node dist/server.js",
     "watch-ts": "tsc -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/app-root-path": "^1.2.4",
     "@types/express": "^4.17.11",
     "@types/mongoose": "^5.10.3",
     "@types/node": "14.0.13",
     "ts-node": "8.10.2",
+    "@types/dotenv": "^8.2.0",
     "typescript": "3.9.5"
   },
   "dependencies": {
+    "app-root-path": "^3.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.11.12",
     "xendit-node": "^1.4.0"

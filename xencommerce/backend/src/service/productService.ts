@@ -1,14 +1,14 @@
 import { Service } from "../util/service";
 import express from "express";
+import { ProductWorker } from '../worker/productWorker';
 export class ProductService implements Service {
   path = "/product";
   r = express.Router();
-  categoryWorker: CategoryWorker;
+  productWorker: ProductWorker;
 
   constructor() {
     this.initRouter();
   }
   initRouter(): void {
-    throw new Error("Method not implemented.");
   }
 }
