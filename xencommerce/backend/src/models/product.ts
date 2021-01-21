@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import { categoryModel } from './category';
 
 export interface IProduct {
+  _id?:mongoose.Types.ObjectId
   name?: string;
   category: mongoose.Types.ObjectId,
   price: Number,
